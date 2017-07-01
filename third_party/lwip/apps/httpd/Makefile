@@ -13,7 +13,7 @@
 #
 ifndef PDIR
 
-GEN_LIBS = liblwipapps.a
+GEN_LIBS = liblwiphttpd.a
 
 endif
 
@@ -43,5 +43,3 @@ INCLUDES := $(INCLUDES) -I $(PDIR)include
 INCLUDES += -I ./
 PDIR := ../$(PDIR)
 sinclude $(PDIR)Makefile
-test:
-	echo "$(PDIR)"

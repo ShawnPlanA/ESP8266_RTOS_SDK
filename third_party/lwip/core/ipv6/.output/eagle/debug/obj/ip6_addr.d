@@ -1,10 +1,10 @@
 .output/eagle/debug/obj/ip6_addr.o .output/eagle/debug/obj/ip6_addr.d : ip6_addr.c \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/lwip/opt.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/lwipopts.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/lwip/debug.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/lwip/arch.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/arch/cc.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/espressif/c_types.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/opt.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwipopts.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/debug.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/arch.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/arch/cc.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/espressif/c_types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/stdint.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/stdbool.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/stddef.h \
@@ -21,5 +21,5 @@
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/sys/types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/machine/types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/sys/stdio.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/ipv6/lwip/ip6_addr.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/lwip/lwip/def.h
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/ipv6/lwip/ip6_addr.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/def.h

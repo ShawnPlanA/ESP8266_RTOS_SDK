@@ -316,7 +316,8 @@ else
 endif
 
 	@echo "!!!"
-
+	cd $(SDK_PATH)
+	sh cp_upgrade.sh
 #############################################################
 # Rules base
 # Should be done in top-level makefile only
@@ -325,6 +326,7 @@ endif
 all:	.subdirs $(OBJS) $(OLIBS) $(OIMAGES) $(OBINS) $(SPECIAL_MKTARGETS)
 
 clean:
+	echo "$(SUBDIRS)"
 	$(foreach d, $(SUBDIRS), $(MAKE) -C $(d) clean;)
 	$(RM) -r $(ODIR)/$(TARGET)/$(FLAVOR)
 

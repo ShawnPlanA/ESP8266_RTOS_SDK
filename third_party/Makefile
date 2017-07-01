@@ -117,4 +117,3 @@ sinclude $(SDK_PATH)/Makefile
 
 .PHONY: FORCE
 FORCE:
-	echo "done============"

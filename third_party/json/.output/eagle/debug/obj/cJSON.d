@@ -22,4 +22,4 @@
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/limits.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed/limits.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/ctype.h \
- /home/jerry/Desktop/ESP8266_RTOS_SDK/include/json/cJSON.h
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/json/cJSON.h

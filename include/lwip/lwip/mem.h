@@ -72,7 +72,7 @@ typedef size_t mem_size_t;
 #endif
 
 #else
-
+//#error "not define memleakdebug"
 #ifndef mem_free
 #define mem_free(s) \
 	do{\

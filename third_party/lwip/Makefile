@@ -20,7 +20,8 @@ COMPONENTS_liblwip = api/liblwipapi.a	\
 						core/ipv4/liblwipipv4.a	\
 						core/ipv6/liblwipipv6.a	\
 						netif/liblwipnetif.a	\
-						apps/liblwipapps.a
+						apps/liblwipapps.a	\
+						apps/httpd/liblwiphttpd.a
 endif
 
 CCFLAGS += -fno-aggressive-loop-optimizations

@@ -89,6 +89,11 @@
 #include <string.h>
 #include <stdlib.h>
 
+#ifdef MEMLEAK_DEBUG
+static const char mem_debug_file[] ICACHE_RODATA_ATTR STORE_ATTR = __FILE__;
+#endif
+
+
 #if LWIP_TCP
 
 #ifndef HTTPD_DEBUG
@@ -1977,7 +1982,7 @@ http_parse_request(struct pbuf **inp, struct http_state *hs, struct tcp_pcb *pcb
         int len = sizeof(char) * (key_end - key_start);
         if ((len + sizeof(WS_GUID) < sizeof(key)) && (len > 0)) {
           /* Allocate response buffer */
-          unsigned char *retval = mem_malloc(WS_RSP_LEN);
+          unsigned char *retval = (char* )mem_malloc(WS_RSP_LEN);
           if (retval == NULL) {
             LWIP_DEBUGF(HTTPD_DEBUG, ("Out of memory\n"));
             return ERR_MEM;
@@ -2416,7 +2421,7 @@ websocket_register_callbacks(tWsOpenHandler ws_open_cb, tWsHandler ws_cb)
 err_t
 websocket_write(struct tcp_pcb *pcb, const uint8_t *data, uint16_t len, uint8_t mode)
 {
-  uint8_t *buf = mem_malloc(len + 4);
+  uint8_t *buf = (char* )mem_malloc(len + 4);
   if (buf == NULL) {
     LWIP_DEBUGF(HTTPD_DEBUG, ("[websocket_write] out of memory\n"));
     return ERR_MEM;
@@ -2506,9 +2511,9 @@ websocket_parse(struct tcp_pcb *pcb, struct pbuf *p)
 
           if (data_len != len)
             LWIP_DEBUGF(HTTPD_DEBUG, ("Warning: segmented frame received\n"));
-
+			int i;
           /* unmask */
-          for (int i = 0; i < len; i++)
+          for (i = 0; i < len; i++)
             *(dptr++) ^= kptr[i % 4];
 
           /* user callback */
