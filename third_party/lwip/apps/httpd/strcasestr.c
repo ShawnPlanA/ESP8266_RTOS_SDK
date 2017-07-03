@@ -30,7 +30,7 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-#include "strcasestr.h"
+#include "apps/httpd/strcasestr.h"
 #include <ctype.h>
 #include <string.h>
 

@@ -15,7 +15,7 @@ ifndef PDIR
 UP_EXTRACT_DIR = ..
 GEN_LIBS = liblwip.a
 COMPONENTS_liblwip = api/liblwipapi.a	\
-		     arch/liblwiparch.a	\
+		  	 		 	 arch/liblwiparch.a	\
 						core/liblwipcore.a	\
 						core/ipv4/liblwipipv4.a	\
 						core/ipv6/liblwipipv6.a	\

@@ -23,7 +23,7 @@ GEN_BINS= eagle.app.v6.bin
 SPECIAL_MKTARGETS=$(APP_MKTARGETS)
 SUBDIRS=    \
 	user    \
-	sample_lib
+	wifiClock
 
 endif # } PDIR
 
@@ -47,7 +47,7 @@ endif
 
 COMPONENTS_eagle.app.v6 = \
 	user/libuser.a  \
-	sample_lib/libsample.a
+	wifiClock/libwifiClock.a
 
 LINKFLAGS_eagle.app.v6 = \
 	-L$(SDK_PATH)/lib        \
@@ -70,6 +70,7 @@ LINKFLAGS_eagle.app.v6 = \
 	-lmain	\
 	-lmesh	\
 	-lmirom	\
+	-lmbedtls	\
 	-lnet80211	\
 	-lnopoll	\
 	-lphy	\
@@ -80,6 +81,7 @@ LINKFLAGS_eagle.app.v6 = \
 	-lssl	\
 	-lwpa	\
 	-lwps		\
+	-ldriver	\
 	$(DEP_LIBS_eagle.app.v6)					\
 	-Wl,--end-group
 

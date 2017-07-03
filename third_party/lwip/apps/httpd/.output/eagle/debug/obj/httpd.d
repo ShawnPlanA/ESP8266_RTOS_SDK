@@ -1,4 +1,5 @@
-.output/eagle/debug/obj/httpd.o .output/eagle/debug/obj/httpd.d : httpd.c httpd.h \
+.output/eagle/debug/obj/httpd.o .output/eagle/debug/obj/httpd.d : httpd.c \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/httpd.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/opt.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwipopts.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/debug.h \
@@ -35,11 +36,13 @@
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/ipv6/lwip/ip6.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/ipv4/lwip/icmp.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/ipv6/lwip/icmp6.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/fs.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/stats.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/memp.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/memp_std.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/mem.h \
- httpd_structs.h fs.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/httpd_structs.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/fs.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/string.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/stdlib.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/machine/stdlib.h \
@@ -50,4 +53,4 @@
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/limits.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed/limits.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/mbedtls/base64.h \
- strcasestr.h
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/strcasestr.h

@@ -1,4 +1,4 @@
-#include "httpd/fsdata.h"
+#include "apps/httpd/fsdata.h"
 
 static const unsigned char data_makefsdata_c[] = {
 	/* /makefsdata.c */

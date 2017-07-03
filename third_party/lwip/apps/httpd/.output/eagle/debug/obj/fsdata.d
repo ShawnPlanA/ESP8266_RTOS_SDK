@@ -1,4 +1,5 @@
-.output/eagle/debug/obj/fsdata.o .output/eagle/debug/obj/fsdata.d : fsdata.c fsdata.h \
+.output/eagle/debug/obj/fsdata.o .output/eagle/debug/obj/fsdata.d : fsdata.c \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/fsdata.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/opt.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwipopts.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/debug.h \
@@ -21,5 +22,5 @@
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/sys/types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/machine/types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/sys/stdio.h \
- fs.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/fs.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/err.h

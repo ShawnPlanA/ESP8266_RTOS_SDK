@@ -108,4 +108,8 @@
 #include "spi_flash.h"
 #include "pwm.h"
 
+#include <freertos/FreeRTOS.h>
+#include <freertos/task.h>
+
+
 #endif

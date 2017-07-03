@@ -31,8 +31,8 @@
  */
 #include "lwip/opt.h"
 #include "lwip/def.h"
-#include "fs.h"
-#include "fsdata.h"
+#include "apps/httpd/fs.h"
+#include "apps/httpd/fsdata.h"
 #include <string.h>
 
 /** Set this to 1 to include "fsdata_custom.c" instead of "fsdata.c" for the

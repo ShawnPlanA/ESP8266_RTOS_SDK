@@ -317,7 +317,6 @@ endif
 
 	@echo "!!!"
 	cd $(SDK_PATH)
-	sh cp_upgrade.sh
 #############################################################
 # Rules base
 # Should be done in top-level makefile only

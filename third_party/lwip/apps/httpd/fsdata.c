@@ -1,4 +1,4 @@
-#include "fsdata.h"
+#include "apps/httpd/fsdata.h"
 
 static const unsigned char data_index_ssi[] = {
 	/* /index.ssi */

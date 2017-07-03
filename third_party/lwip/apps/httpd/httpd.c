@@ -79,12 +79,12 @@
  * about an unknown extension, make sure to add it (and its doctype) to
  * the 'g_psHTTPHeaders' list.
  */
-#include "httpd.h"
+#include "apps/httpd/httpd.h"
 #include "lwip/debug.h"
 #include "lwip/stats.h"
-#include "httpd_structs.h"
+#include "apps/httpd/httpd_structs.h"
 #include "lwip/tcp.h"
-#include "fs.h"
+#include "apps/httpd/fs.h"
 
 #include <string.h>
 #include <stdlib.h>
@@ -275,7 +275,7 @@ static const char mem_debug_file[] ICACHE_RODATA_ATTR STORE_ATTR = __FILE__;
 
 #include <mbedtls/sha1.h>
 #include <mbedtls/base64.h>
-#include "strcasestr.h"
+#include "apps/httpd/strcasestr.h"
 
 static const char WS_HEADER[] = "Upgrade: websocket\r\n";
 static const char WS_GUID[] = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";

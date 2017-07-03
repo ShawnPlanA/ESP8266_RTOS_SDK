@@ -1,4 +1,5 @@
-.output/eagle/debug/obj/strcasestr.o .output/eagle/debug/obj/strcasestr.d : strcasestr.c strcasestr.h \
+.output/eagle/debug/obj/strcasestr.o .output/eagle/debug/obj/strcasestr.d : strcasestr.c \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/strcasestr.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/sys/types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/_ansi.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/newlib.h \

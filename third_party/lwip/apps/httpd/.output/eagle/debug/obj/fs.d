@@ -22,8 +22,8 @@
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/machine/types.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/sys/stdio.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/def.h \
- fs.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/fs.h \
  /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/lwip/err.h \
- fsdata.h \
+ /home/jerry/Desktop/esp-idf/ESP8266_RTOS_SDK/include/lwip/apps/httpd/fsdata.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/string.h \
  fsdata.c
